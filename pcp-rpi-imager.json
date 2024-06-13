@@ -91,7 +91,7 @@
          "description": "A complete audio system for the Raspberry Pi",
          "icon": "https://repo.picoreplayer.org/images/pCP_sm.png",
          "website": "https://picoreplayer.org",
-         "subitems_url": "https://raw.githubusercontent.com/piCorePlayer/Imager/Master/rpi-imager.json"
+         "subitems_url": "https://raw.githubusercontent.com/piCorePlayer/pCP-Releases/Master/rpi-imager.json"
       }
    ]
 }
