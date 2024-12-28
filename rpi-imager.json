@@ -1,33 +1,67 @@
 {
-   "os_list": [
-      {
-         "name": "piCorePlayer 9.2.0 - 32bit",
-         "description": "piCorePlayer 9.2.0 - 32bit OS",
-         "website": "https://picoreplayer.org",
-         "url": "https://repo.pcplayer.org/insitu/piCorePlayer9.2.0/piCorePlayer9.2.0.img.xz",
-         "icon": "https://repo.pcplayer.org/images/pCP_sm.png",
-         "release_date": "2024-06-08",
-         "extract_size": 205520896,
-         "extract_sha256": "5ef504bc18def9ab4d4902997905dd2a3ee2d112831d89c2b2d81676f1eb6fed",
-         "image_download_size": 68725092,
-         "image_download_sha256": "2457f38062560beac5ee166ec6cd96335201b8f6bc1f47b026cd8d639c804bc9",
-         "devices": ["pi4-32bit", "pi3-32bit", "pi2-32bit", "pi1-32bit"],
-         "init_format": "none"
-      },
-      {
-         "name": "piCorePlayer 9.2.0 - 64bit",
-         "description": "piCorePlayer 9.2.0 - 64bit OS",
-         "website": "https://picoreplayer.org",
-         "url": "https://repo.pcplayer.org/insitu/piCorePlayer9.2.0/piCorePlayer9.2.0-64Bit.img.xz",
-         "icon": "https://repo.pcplayer.org/images/pCP_sm.png",
-         "release_date": "2024-06-08",
-         "extract_size": 205520896,
-         "extract_sha256": "e534a935a4a8f246a5d493551ec333faadf2656bcaf97722300c2e8ba89a5091",
-         "image_download_size": 60999504,
-         "image_download_sha256": "dcaa8f78283e1e2133c92a0d92fd64b7a6177471048959406b8338e2c248ad9c",
-         "devices": ["pi5-64bit", "pi4-64bit", "pi3-64bit"],
-         "init_format": "none"
-      }
+    "os_list": [
+        {
+            "name": "piCorePlayer 9.2.0 - 32bit",
+            "description": "piCorePlayer 9.2.0 - 32bit OS",
+            "website": "https://picoreplayer.org",
+            "url": "https://repo.pcplayer.org/insitu/piCorePlayer9.2.0/piCorePlayer9.2.0.img.xz",
+            "icon": "https://repo.pcplayer.org/images/pCP_sm.png",
+            "release_date": "2024-06-08",
+            "extract_size": 205520896,
+            "extract_sha256": "5ef504bc18def9ab4d4902997905dd2a3ee2d112831d89c2b2d81676f1eb6fed",
+            "image_download_size": 68725092,
+            "image_download_sha256": "2457f38062560beac5ee166ec6cd96335201b8f6bc1f47b026cd8d639c804bc9",
+            "devices": ["pi4-32bit", "pi3-32bit", "pi2-32bit", "pi1-32bit"],
+            "init_format": "none"
+        },
+        {
+            "name": "piCorePlayer 9.2.0 - 64bit",
+            "description": "piCorePlayer 9.2.0 - 64bit OS",
+            "website": "https://picoreplayer.org",
+            "url": "https://repo.pcplayer.org/insitu/piCorePlayer9.2.0/piCorePlayer9.2.0-64Bit.img.xz",
+            "icon": "https://repo.pcplayer.org/images/pCP_sm.png",
+            "release_date": "2024-06-08",
+            "extract_size": 205520896,
+            "extract_sha256": "e534a935a4a8f246a5d493551ec333faadf2656bcaf97722300c2e8ba89a5091",
+            "image_download_size": 60999504,
+            "image_download_sha256": "dcaa8f78283e1e2133c92a0d92fd64b7a6177471048959406b8338e2c248ad9c",
+            "devices": ["pi5-64bit", "pi4-64bit", "pi3-64bit"],
+            "init_format": "none"
+        },
+        {
+            "name": "piCorePlayer Test Images",
+            "description": "piCorePlayer Development/Test Releases",
+            "icon": "https://repo.pcplayer.org/images/pCP_sm.png",
+            "subitems": [
+            {
+                "name": "piCorePlayer 10.0.0-rc1 - 32bit",
+                "description": "piCorePlayer 10.0.0-rc1 - 32bit OS",
+                "website": "https://pcplayer.org",
+                "url": "https://repo.pcplayer.org/insitu/piCorePlayer10.0.0-rc1/piCorePlayer10.0.0-rc1.img.xz",
+                "icon": "https://repo.pcplayer.org/images/pCP.png",
+                "release_date": "2024-12-28",
+                "extract_size": 205520896,
+                "extract_sha256": "c79e905348991c3f1dddec57315ca88f36f2ff6994d0bb4c11399e4220287dac",
+                "image_download_size": 87301740,
+                "image_download_sha256": "839b61cea6ae035a3bfa3e880e17e39cae48f11520a977c83080b5719bb2d4ee",
+                "devices": ["pi4-32bit", "pi3-32bit", "pi2-32bit", "pi1-32bit"],
+                "init_format": "none"
+            },
+                {
+                    "name": "piCorePlayer 10.0.0-rc1 - 64bit",
+                    "description": "piCorePlayer 10.0.0-rc1 - 64bit OS",
+                    "website": "https://pcplayer.org",
+                    "url": "https://repo.pcplayer.org/insitu/piCorePlayer10.0.0-rc1/piCorePlayer10.0.0-rc1-64Bit.img.xz",
+                    "icon": "https://repo.pcplayer.org/images/pCP.png",
+                    "release_date": "2024-12-28",
+                    "extract_size": 205520896,
+                    "extract_sha256": "537c0ce824d2360bbe3cc9f3eb72538bcf3bfbc9cb7bdcbd89bef5af4d9ca9cc",
+                    "image_download_size": 62462604,
+                    "image_download_sha256": "647c594d7e3d0f0177031b9a6266c90143ff598a0ccdf25d52a16c14ff1c551b",
+                    "devices": ["pi5-64bit", "pi4-64bit", "pi3-64bit"],
+                    "init_format": "none"
+                }
+            ]
+        }
    ]
 }
-
